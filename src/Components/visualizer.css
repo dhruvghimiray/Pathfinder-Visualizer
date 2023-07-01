@@ -1,0 +1,33 @@
+/* visualizer.css */
+
+body {
+  background-color: #222831;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(80, 20px);
+  grid-template-rows: repeat(30, 20px);
+  gap: 1px;
+  margin: 10px auto;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+
+.footer-text {
+  color: white; /* Set the desired text color */
+}
+
+.dark-body {
+  background-color: #222831;
+}
